@@ -21,8 +21,7 @@ app.use(rateLimiter({
 app.use(express.json())
 app.use(helmet())
 app.use(cors())
-app.use(xss())
-
+ 
 
 
 //auth middleware
